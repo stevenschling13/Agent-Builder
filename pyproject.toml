@@ -1,0 +1,16 @@
+[project]
+name = "openai-agents-starter"
+version = "0.1.0"
+description = "Minimal production-ready agent using OpenAI Agents SDK"
+authors = [{ name = "OpenAI Agents Starter" }]
+requires-python = ">=3.11"
+dependencies = [
+    "openai-agents>=0.1.0",
+    "pydantic>=2.7",
+    "httpx>=0.27",
+    "fastapi>=0.112",
+    "uvicorn>=0.30",
+    "python-dotenv>=1.0",
+]
+[project.optional-dependencies]
+dev = ["pytest>=8.3"]
