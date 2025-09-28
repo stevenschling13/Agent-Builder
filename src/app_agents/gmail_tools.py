@@ -8,7 +8,7 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
 from googleapiclient.discovery import build
 
-from .sdk import function_tool
+from agents import function_tool
 
 def _scopes() -> list[str]:
     raw = os.getenv("GMAIL_SCOPES","https://www.googleapis.com/auth/gmail.readonly")
