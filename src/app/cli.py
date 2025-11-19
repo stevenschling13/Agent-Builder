@@ -1,7 +1,7 @@
 import os, sys
 from dotenv import load_dotenv
 from agents import Runner
-from agents.triage import triage_agent
+from project_agents.triage import triage_agent
 
 
 def main():
